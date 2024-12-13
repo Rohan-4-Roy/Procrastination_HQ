@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    
+    background-color: rgb(7, 7, 92);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    border-bottom:5px solid black;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+.hero{
+    margin-top: 200px;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    all:unset;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color:rgb(7, 7, 92);
+    color: white;
+    text-align: center;    
+}
+.button:active{
+    transform: scale(1.1);
+    transition: transform 0s ease;
+    border: 2px solid black;
+}
+#joke{
+    all:unset;
+    height: auto;
+    width: auto;
+    padding: 50px;
+    color: white;
+    background-color:rgb(7, 7, 92) ;
+    border: 2px solid black;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
